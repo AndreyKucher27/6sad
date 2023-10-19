@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="utf-8">  
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin:0;">
+<nav class="navbar">
+    <div class="container">
+        <!--<img class="image"  src="image.png" alt="">-->
+        <a href="#" class="navbar-brand">BeGreate</a>
+        
+        <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Примеры работ</a></li>
+                <li><a href="#">Сотрудники</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="colorwant">
+<ul>
+<li><a href="http://www.kubsu.ru/">КубГУ</a></li>
+<li><a href="c">Ссылка на КубГУ</a></li>
+<!--<a href="https://www.kubsu.ru/"><img src="image.png" width="200" height="200"></a>-->
+<li><a href="/secondfile.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+<li><a href="/index.html">Сокращенная ссылка на главную страницу</a></li>
+<li><a href="#object">Ссылка на фрагмент текущей страницы</a></li>
+<li><a href="/index.html?par1=a&par2=b&par3=c">Ссылка с тремя параметрами</a></li>
+<li><a href="#">Ссылка с id</a></li>
+<li><a href ="./secondfile.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+<li><a href ="./about/file.html">Относительная ссылка на страницу в каталоге about</a></li>
+<li><a href ="../about/file.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+<li><a href ="../../about/file.html">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+<li>Текст с <a href="file.html">контекстной ссылкой</a> внутри него</li>
+<li><id="object">Объект текущей страницы</li>   
+<li><a href="https://www.kubsu.ru/ru/university/library">Ссылка на фрагмент со стороннего ресурса</a></li>
+<!--<li>Ссылки с областями картинки</p> <img src="F:\Документы Андрея\Дизайн студия\Задание 1\122.jpg" width="300" height="200" usemap="#imag" alt="Области картинки"></li>
+            <map name="imag"><area shape="circle" coords="20,25,200" href="15c.html" alt="circle">
+                <area shape="rect" coords="140,100,900,140" href="15r.html" alt="rect">
+            </map>-->
+<li><a href="#">Пустая ссылка</a></li>
+<li><a>Ссылка без href</a></li>
+<li><a href="http://www.kubsu.ru/" rel="nofollow">Ссылка по которой запрещен переход поисковикам</a></li>
+<li><a href="https://example.com/" rel="nofollow">Ссылка без индексации</a></li>
+<p><ol start="1" type="a">
+    <li><a href="Ссылка1.html" title="Сайт 1">Сайт 1</a></li>
+    <li><a href="Ссылка2.html" title="Сайт 2">Сайт 2</a></li>
+    <li><a href="Ссылка3.html" title="Сайт 3">Сайт 3</a></li>
+</ol><p>
+<li><a href="ftp://log:parol@adress.ru/F:\Документы Андрея\Дизайн студия\Задание 1\Документ.txt">Скачать файл по FTP протоколу</a></li>
+</ul> 
+</div>
+<!--ТЕГИ-->
+
+<!--Таблица-->
+<!--<caption id="a2">Таблица</caption>-->
+<div style="margin: 20px;">
+<table border="1">
+<caption></caption>
+<tr>
+<th class="change">Урок/Класс</th>
+<th>Класс А</th>
+<th>Класс Б</th>
+<th>Класс В</th>
+</tr>
+<tr>
+<td class="change1">1 урок</td>
+<td>Математика</td>
+<td>Русский язык</td>
+<td>Обществознание</td>
+</tr>
+<tr>
+<td class="change1">2 урок</td>
+<td>Русский язык</td>
+<td>История</td>
+<td>Математика</td>
+</tr>
+<tr>
+<td class="change1">3 урок</td>
+<td>Физкултура</td>
+<td>Обществознание </td>
+<td>Информатика</td>
+</tr>
+</table>
+</div>
+<!--Таблица-->
+
+<!--ФОРМА-->
+<div class="colorwantform">
+ <h2 style="margin-left: 20px;">Форма:</h2> 
+  <form class="form" action="/" method="POST">  <label> 
+ ФИО:<br /> 
+ <input type="text" name="student_name" placeholder="Иванов Иван Иванович"> 
+ </label><br /> 
+ <label> 
+ Номер телефона:<br /> 
+ <input type="number" name="student_pnone"> 
+ </label><br /> 
+  <label> 
+ Email:<br /> 
+ <input type="email" name="email" placeholder="Введите почту"> 
+ </label><br /> 
+ <label> 
+ Дата рождения:<br /> 
+ <input type="date" name="date"> 
+ </label><br /> 
+ <label> 
+ Пол:<br /> 
+ <input name=sex type="radio" value="male"> 
+ Мужской</label> 
+ <label> 
+ <input name=sex type="radio" value="female"> 
+ Женский</label> <br /> 
+ <label> 
+ Любимый язык программирования:<br> 
+ <select> 
+ <option value="Pascal">Pascal</option> 
+ <option value="C">C</option> 
+ <option value="C++">C++</option> 
+ <option value="JavaScript">JavaScript</option> 
+ <option value="PHP">PHP</option> 
+ <option value="Python" selected="selected">Python</option> 
+ <option value="Java">Java</option><p>
+ </select>
+
+ <!--ФОРМА-->
+
+ </body>
+ </html>

@@ -1,0 +1,162 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ga4MvyYRIGqUSYDKlf5fBffYVG_4XIo7qzsLnUHty_0H567aVVHPMi8J8zwDV8Yf6mZplQDLultuse6Jyk852Z2ICCkgkgzgJmlwgGlWttd3MSCGDRoH0oBPBHfc0EG2WZk8I6Qa_GbgXiZrOoqrL7GkpSUGHvnVxES-_cWyf6s" charset="UTF-8"></script></head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#" class="logo"> <img src="image0.png" width="50" height="50" alt="logo"></a>
+      <a href="#" class="title">Мой сайт</a>
+      <nav class="shapka">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="page2.html">Первая страничка</a></li>
+          <li><a href="./about/about.html">Вторая страничка</a></li>
+          <li><a href="#a2">Таблица</a></li>
+          <li><a href="#a1">Форма</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="main">
+    <div class="container">
+      <nav class="spisok">
+        <ul> 
+          <li><a href="http://kubsu.ru/">Абсолютная гипрессылка на главную страницу сайта KUBSU</a></li> 
+          <li><a href="https://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта KUBSU в протоколе https</a></li> 
+          <li><a href="https://www.kubsu.ru./"><img src="image.jpg" alt="Цветок" width="300" height="200"  title="Ссылка-изображение"></a></li>
+          <li><a href="/page2.html"> Сокращенная ссылка на внутреннюю страницу</a></li>
+          <li><a href="/index.html"> Сокращенная ссылка на главную страницу</a></li>
+          <li><a href="#a1">Ссылка на фрагмент текущей страницы</a></li>
+          <li><a href="https://yandex.ru/search/?text=russia&lr=56&clid=456889"> Ссылка с 3 параметрами в URL </a></li>
+          <li><a href="http://kubsu.ru/?id=fhttjk45"> Ссылка с параметром id в URL</a></li>
+          <li><a href="./page2.html"> Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/about.html"> Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="./11/new11.html">Ссылка на страницу уровнем выше (здесь ссылка на страницу ниже текущей, на следующей будет ссылка на страницу выше текущей)</a></li>
+          <li><a href="./12/12.2/new12.html">Ссылка на страницу двумя уровнями выше(аналогично первой)</a></li>
+          <li>КУБГУ - это высшее учебное заведение в <a href="https://yandex.ru/search/?text=Краснодар">Краснодаре</a><br>Является одним из крупнейших и старейших университетов юга России.</li>
+          <li><a href="https://ru.wikipedia.org/wiki/Краснодар#Этимология">Ссылка на фрагмент на другом сайте</a></li>
+          <li>Ссылка в прямоугольной и круглой области<br />
+            <img src="image2.jpg" alt="Фото для задания" width="200" height="100" usemap="#link">
+            <map name="link">
+              <area shape="rect" coords="8,8,100,100" href="./page2.html" alt="КВАДРАТ">
+              <area shape="circle" coords="200,75,80" href="http://kubsu.ru" alt="КРУГ">
+            </map>
+          </li>
+          <li><a href="">Ссылка с пустым href</a></li>
+          <li><a>Ссылка без href</a></li>
+          <li><a href="./page2.html" rel="nofollow"> Ссылка по которой запрещен переход поисковикам</a></li>
+          <li><a href="./page2.html" rel="nofollow"><noindex>Ссылка запрещенная для индексации</noindex></a></li>
+          <li><a href="ftp://demo@test.rebex.net/pub/example/imap-console-client.png">Ссылка на файл на сервере FTP</a></li>
+         </ul>
+         <ol>
+          <li><a href="https://kubsu.ru" title="Сайт КУБГУ"> Сайт ВУЗа</a></li>
+          <li><a href="https://minobrnauki.gov.ru" title="Министерство образования">Сайт Министерства образования и науки</a></li>
+          <li><a href="https://minzdrav.gov.ru/" title="Минздрав">Сайт Министерства здравоохранения</a></li>
+        </ol>
+      </nav>
+      <table>
+        <caption id="a2">Таблица</caption>
+        <thead>
+        <tr>
+          <th>Имя</th>
+          <th>Фамилия</th>
+          <th>Страна</th>
+          <th>Город</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Александр</td>
+          <td>Петров</td>
+          <td>Россия</td>
+          <td>Москва</td>
+        </tr>
+        <tr>
+          <td>Ирина</td>
+          <td>Кузнецова</td>
+          <td rowspan="2">Россия</td>
+          <td>Краснодар</td>
+        </tr>
+        <tr>
+          <td>Егор</td>
+          <td>Булаткин</td>
+          <td>Пенза</td>
+        </tr>
+        <tr>
+          <td>Олеся</td>
+          <td>Иванченко</td>
+          <td>Беларусь</td>
+          <td>Минск</td>
+        </tr>
+        <tr>
+          <td>София</td>
+          <td>Мудрая</td>
+          <td>Литва</td>
+          <td>Вильнюс</td>
+        </tr>
+        <tr>
+          <td>Михаил</td>
+          <td>Круг</td>
+          <td>Украина</td>
+          <td>Киев</td>
+        </tr>
+      </tbody>
+      </table>
+      <h2 id="a1">Форма:</h2>
+      <form action="/" method="POST">
+      <label>
+        ФИО:<br />
+        <input type="text" name="student_name" placeholder="Иванов Иван Иванович">
+      </label><br />
+      <label>
+        Номер телефона:<br />
+        <input type="number" name="student_pnone">
+      </label><br />
+      <label>
+        Email:<br />
+        <input type="email" name="email" placeholder="Введите вашу почту">
+      </label><br />
+      <label>
+        Дата рождения:<br />
+        <input type="date" name="date">
+      </label><br />
+      <label>
+        Пол:<br />
+          <input name=sex type="radio" value="male">
+          Мужской</label>
+      <label>
+          <input name=sex type="radio" value="female">
+          Женский</label> <br />
+      <label>
+        Любимый язык программирования: <br>
+        <select name="PL[]" multiple="multiple">
+            <option value="Pascal">Pascal</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Haskel">Haskel</option>
+            <option value="Clojure">Clojure</option>
+            <option value="Prolog">Prolog</option>
+            <option value="Scala">Scala</option>
+        </select>
+      </label><br />
+      <label>
+        Биография:<br />
+        <textarea name="student_bio"></textarea>
+      </label><br />
+      <label> С контрактом ознакомлен(а):<input type="checkbox" name="check"></label><br />
+      <input type="submit" value="Сохранить">
+      </form>
+        </div>
+      </div>
+      <footer>
+        2023 Шигалугова Самира 27/2
+      </footer>
+    </body>
+    </html>
